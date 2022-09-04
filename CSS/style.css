@@ -1,0 +1,113 @@
+@charset "UTF-8"
+
+body {
+    font-family: 'Hiragino Kaku Gothic Pro','Meiryo',sans-serif;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo{
+    text-align: center;
+    margin: 20px 0;
+}
+.logo p{
+    font-size: 18px;
+}
+.logo a{
+    font-size: 18px;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+    margin: 10px 0 5px 0;
+}
+header{
+    border-top: 10px solid #79a1b1;
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    width: 200px;
+    min-width: 200px;
+    text-align: center;
+    list-style-type: none;
+    border-right: 1px solid #ddd;
+}
+header ul li:first-child{
+    border-left: 1px solid #ddd;
+}
+header ul li a{
+    display: block;
+}
+header ul li a:hover{
+    color: aquamarine;
+}
+
+.header-img{
+    text-align: center;
+    margin-top: 20px;
+}
+.header-img img{
+    width: 100%;
+}
+.container_service{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.container_service .service_block{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+}
+.container_service .service img{
+    margin-bottom: 20px;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.container_service .service .sub-title{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.container_service .service p{
+    margin-bottom: 18px;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.container_service .service a{
+    background:#79a1b1;
+    color: #fff;
+    padding: 15px 20px 15px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.container_service .service a:hover{
+    background-color: aquamarine;
+}
+footer{
+    margin-top: 40px;
+}
+footer .pp_link a{
+    text-align: right;
+    display: block;
+}
+.copy{
+    text-align: center;
+    background-color: #79a1b1;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 12px;
+    padding: 7px 0 3px;
+}
